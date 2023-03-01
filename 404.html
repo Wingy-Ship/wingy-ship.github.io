@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="icon" href="Assets/Images/Icon.png">
+        <title>Wingy Ship!</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Drag your mouse or your screen to control the ship!">
+        <meta name="author" content="OftenGuy">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Wingy Ship!">
+        <meta property="og:description" content="Drag your mouse or your screen to control the ship!">
+        <meta property="og:url" content="https://wingy-ship.github.io">
+        <meta property="og:site_name" content="Wingy Ship!">
+        <meta property="og:image" content="Assets/Images/Icon.png">
+        <meta property="og:image:width" content="64">
+        <meta property="og:image:height" content="64">
+        <meta property="og:image:alt" content="Wingy Ship!">
+        <link rel="stylesheet" href="Assets/CascadingStyleSheets/home.css">
+        <script src="https://cdn.jsdelivr.net/combine/npm/jquery@3.5.1/dist/jquery.slim.min.js,npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js,npm/@iconify/iconify@3.0.1" crossorigin></script>
+    </head>
+    <body style="position: inherit;">
+        <div id="HomeNavBar" style="height: 100px;">
+            <a href="index.html" title="Wingy Ship!" target="_blank"><img src="Assets/Images/Icon.png" alt="Wingy Ship!" width="50" height="64" style="-webkit-filter: drop-shadow(1px 1px 0 black); filter: drop-shadow(1px 1px 0 black); margin-left: 10px; margin-top: 10px;"><p style="margin-left: 70px; margin-top: -45px; font-size: 20px;">Wingy Ship!</p></a>
+            <a href="index.html" title="Home" target="_blank" style="position: absolute; margin: 0; top: 4%; left: 70%; transform: trsnalte(0%, 0%);"><span class="iconify" data-icon="mdi:home"></span> Home</a>
+            <a href="play.html" title="Play" target="_blank" style="position: absolute; margin: 0; top: 4%; left: 80%; transform: translate(0%, 0%);"><span class="iconify" data-icon="mdi:play"></span> Play</a>
+            <a href="about.html" title="About" target="_blank" style="position: absolute; margin: 0; top: 4%; left: 90%; transform: translate(0%, 0%);"><span class="iconify" data-icon="mdi:information"></span> About</a>
+        </div>
+        <div id="HomeIntro" style="height: 750px; margin-top: -34px;">
+            <h1 style="font-size: 50px; text-align: center;">404</h1>
+            <h2 style="font-size: 25px; text-align: center;">Error, this page isn't a thing.</h2>
+            <h3 style="font-size: 20px; text-align: center;"><a href="index.html" title="Home" target="_blank">Home</a></h3>
+        </div>
+        <div id="HomeFooter" style="height: 87px;">
+            <a href="/" title="Wingy Ship!"><img src="Assets/Images/Icon.png" alt="Wingy Ship!" width="50" height="64" style="-webkit-filter: drop-shadow(1px 1px 0 black); filter: drop-shadow(1px 1px 0 black); margin-left: 10px; margin-top: 10px;"><p style="margin-left: 70px; margin-top: -45px; font-size: 20px;">Wingy Ship!</p></a>
+            <a href="https://oftenguy.github.io" title="OftenGuy" target="_blank"><p style="margin-top: -45px; position: absolute; left: 50%; transform: translate(-50%, 0%);">&copy; 2022-<span id="CurrentYear"></span> OftenGuy &copy;</p></a>
+        </div>
+        <script>
+            document.getElementById("CurrentYear").innerHTML = new Date().getFullYear();
+        </script>
+    </body>
+</html>

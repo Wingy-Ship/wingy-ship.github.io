@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link rel="icon" href="Assets/Images/Icon.png">
+        <title>Wingy Ship!</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Drag your mouse or your screen to control the ship!">
+        <meta name="author" content="OftenGuy">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Wingy Ship!">
+        <meta property="og:description" content="Drag your mouse or your screen to control the ship!">
+        <meta property="og:url" content="https://wingy-ship.github.io">
+        <meta property="og:site_name" content="Wingy Ship!">
+        <meta property="og:image" content="Assets/Images/Icon.png">
+        <meta property="og:image:width" content="64">
+        <meta property="og:image:height" content="64">
+        <meta property="og:image:alt" content="Wingy Ship!">
+        <link rel="stylesheet" href="Assets/CascadingStyleSheets/home.css">
+        <script src="https://cdn.jsdelivr.net/combine/npm/jquery@3.5.1/dist/jquery.slim.min.js,npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js,npm/@iconify/iconify@3.0.1" crossorigin></script>
+    </head>
+    <body style="position: inherit;">
+        <div id="HomeNavBar" style="height: 100px;">
+            <a href="/" title="Wingy Ship!" target="_blank"><img src="Assets/Images/Icon.png" alt="Wingy Ship!" width="50" height="64" style="-webkit-filter: drop-shadow(1px 1px 0 black); filter: drop-shadow(1px 1px 0 black); margin-left: 10px; margin-top: 10px;"><p style="margin-left: 70px; margin-top: -45px; font-size: 20px;">Wingy Ship!</p></a>
+            <a href="play.html" title="Home" target="_blank" style="position: absolute; margin: 0; top: 4%; left: 80%; transform: translate(0%, 0%);"><span class="iconify" data-icon="mdi:home"></span> Home</a>
+            <a href="about.html" title="Play" target="_blank" style="position: absolute; margin: 0; top: 4%; left: 90%; transform: translate(0%, 0%);"><span class="iconify" data-icon="mdi:play"></span> Play</a>
+        </div>
+        <div id="HomeIntro" style="height: 750px; margin-top: -34px;">
+            <h1 style="font-size: 50px; text-align: center;">About</h1>
+            <h2 style="font-size: 25px; text-align: center;">Name: <span style="font-weight: lighter;">Wingy Ship!</span></h2>
+            <h2 style="font-size: 22.5px; text-align: center;">Description: <span style="font-weight: lighter;">Drag your mouse or your screen to control the ship!</span></h2>
+            <h2 style="font-size: 20px; text-align: center;">Current Version: <span style="font-weight: lighter;">1.3.1 <i>(March 1, 2023)</i></span></h2>
+            <h2 style="font-size: 17.5px; text-align: center;">Initial Release: <span style="font-weight: lighter;">1.0 <i>(February 16, 2023)</i></span></h2>
+            <h2 style="font-size: 15px; text-align: center;">Created Using: <span style="font-weight: lighter;">Scratch 3</span></h2>
+            <h2 style="font-size: 14px; text-align: center;">Converted Using: <span style="font-weight: lighter;">HTMLIFIER</span></h2>
+        </div>
+        <div id="HomeFooter" style="height: 87px;">
+            <a href="/" title="Wingy Ship!"><img src="Assets/Images/Icon.png" alt="Wingy Ship!" width="50" height="64" style="-webkit-filter: drop-shadow(1px 1px 0 black); filter: drop-shadow(1px 1px 0 black); margin-left: 10px; margin-top: 10px;"><p style="margin-left: 70px; margin-top: -45px; font-size: 20px;">Wingy Ship!</p></a>
+            <a href="https://oftenguy.github.io" title="OftenGuy" target="_blank"><p style="margin-top: -45px; position: absolute; left: 50%; transform: translate(-50%, 0%);">&copy; 2022-<span id="CurrentYear"></span> OftenGuy &copy;</p></a>
+        </div>
+        <script>
+            document.getElementById("CurrentYear").innerHTML = new Date().getFullYear();
+        </script>
+    </body>
+</html>
