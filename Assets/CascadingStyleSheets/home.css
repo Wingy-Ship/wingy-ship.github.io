@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+body {
+    font-family: 'Poppins', 'Circular';
+    background-image: url('../Images/Stars.svg');
+    background-color: black;
+    color: white;
+    background-attachment: fixed;
+    background-position: center top;
+    animation: FlyIntoSpace 5s linear infinite;
+    overflow-x: hidden;
+    margin: 0;
+}
+a {
+ color: #FFCCCC;
+ text-decoration: none;
+}
+a:hover {
+ color: #FF9999;
+ text-decoration: underline;
+}
+@keyframes FlyIntoSpace {
+    from {
+        background-position: bottom center;
+    }
+    to {
+        background-position: top center;
+    }
+}
+#HomeNavBar {
+    background: linear-gradient(red, #800000);
+}
+#HomeIntro {
+    background: linear-gradient(rgba(255, 0, 0, 0.5), rgba(180, 0, 0, 0.25));
+}
+#HomeFooter {
+    background: linear-gradient(rgba(200, 0, 0, 0.25), #990000);
+}
