@@ -36,6 +36,11 @@
         </div>
         <script>
             document.getElementById("CurrentYear").innerHTML = new Date().getFullYear();
+            function redirect() {
+                if(window.location) {
+                    window.location = 'https://wingy-ship.github.io';
+            }
+            setTimeout(redirect(), 10000);
         </script>
     </body>
 </html>
