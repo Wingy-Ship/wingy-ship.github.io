@@ -27,7 +27,7 @@
         <div id="HomeIntro" style="height: 750px; margin-top: -34px;">
             <h1 style="font-size: 50px; text-align: center;">Play</h1>
             <p style="text-align: center;"><iframe src="Assets/Play/WingyShip.html" style="border: 5px solid #FF9999; border-radius: 10px;" width="800" height="600"></iframe></p>
-            <div class="PlayCounter" style="text-align: center;">0 Plays</div>
+            <div class="PlayCounter" style="text-align: center;"><span class="iconify" data-icon="mdi:eye"></span> 0 Plays</div>
         </div>
         <div id="HomeFooter" style="height: 87px;">
             <a href="https://wingy-ship.github.io" title="Wingy Ship!" target="_blank"><img src="Assets/Images/Icon.png" alt="Wingy Ship!" width="50" height="64" style="-webkit-filter: drop-shadow(1px 1px 0 black); filter: drop-shadow(1px 1px 0 black); margin-left: 10px; margin-top: 10px;"><p style="margin-left: 70px; margin-top: -45px; font-size: 20px;">Wingy Ship!</p></a>
@@ -44,7 +44,7 @@
                 visitCount = 1;
                 localStorage.setItem("page_view", 1);
             }
-            playCounter.innerHTML = visitCount + " Plays";
+            playCounter.innerHTML = "<span class='iconify' data-icon='mdi:eye'></span>&nbsp;" + visitCount + " Plays";
         </script>
     </body>
 </html>
