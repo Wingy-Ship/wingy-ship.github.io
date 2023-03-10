@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 body {
     font-family: 'Poppins', 'Circular';
-    background-image: url('../Images/Stars.svg');
+    background-image: url('https://wingy-ship.github.io/Assets/Images/Stars.svg');
     background-color: black;
     color: white;
     background-attachment: fixed;
